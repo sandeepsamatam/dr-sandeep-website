@@ -17,20 +17,23 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com"),
-  title: "Best Orthopaedic Doctor in Visakhapatnam",
+  title: "Orthopaedic Doctor in Visakhapatnam | Dr. Sandeep Kanugula",
   description:
-    "Dr. Sandeep Kanugula offers advanced orthopaedic care in Visakhapatnam for fractures, joint pain, sports injuries, arthritis, and spine conditions.",
+    "AIIMS-trained orthopaedic specialist in Visakhapatnam offering fracture care, spine treatment, joint replacement, and sports injury care.",
   keywords: [
     "Orthopaedic doctor in Visakhapatnam",
+    "Orthopaedic doctor in Vizag",
     "Orthopaedic surgeon",
     "Joint pain treatment",
     "Fracture treatment",
-    "Sports injury treatment"
+    "Sports injury treatment",
+    "Spine treatment in Visakhapatnam",
+    "Joint replacement in Vizag"
   ],
   openGraph: {
-    title: "Best Orthopaedic Doctor in Visakhapatnam",
+    title: "Orthopaedic Doctor in Visakhapatnam | Dr. Sandeep Kanugula",
     description:
-      "Advanced orthopaedic care for pain-free living with personalized treatment and recovery support.",
+      "AIIMS-trained orthopaedic specialist in Visakhapatnam offering fracture care, spine treatment, joint replacement, and sports injury care.",
     type: "website",
     locale: "en_IN",
     siteName: doctor.name

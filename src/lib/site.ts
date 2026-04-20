@@ -8,9 +8,10 @@ export const doctor = {
   whatsappLink: "https://wa.me/919703143231?text=Hello%20Doctor",
   email: "sandeepkanugula@gmail.com",
   experience: "12+ Years Experience",
-  residency: "Senior Residency - AIIMS, New Delhi",
-  qualifications: ["MS Orthopaedics (NIMS)"],
-  heroImage: "/images/dr-sandeep-consultation.jpeg"
+  residency: "AIIMS, New Delhi (Senior Residency)",
+  qualifications: ["MS Orthopaedics (NIMS)", "DNB Orthopaedics, MNAMS"],
+  heroImage: "/images/doctor/dr-sandeep-consultation-1.webp",
+  profileImage: "/images/doctor/dr-sandeep-kanugula-orthopaedic-doctor.webp"
 };
 
 export const heroHighlights = [
@@ -21,71 +22,55 @@ export const heroHighlights = [
 
 export const services = [
   {
-    title: "Joint Pain",
-    featured: true,
-    description:
-      "Clear diagnosis and targeted treatment plans for knee, shoulder, hip, and other joint pain concerns."
-  },
-  {
-    title: "Fractures",
-    featured: true,
-    description:
-      "Prompt evaluation and orthopaedic care for fractures, trauma, and accident-related bone injuries."
-  },
-  {
-    title: "Joint Replacement",
-    featured: true,
-    description:
-      "Advanced planning and treatment guidance for patients needing knee or hip replacement surgery."
-  },
-  {
     title: "Sports Injury Treatment",
-    featured: false,
+    featured: true,
     description:
-      "Specialist care for ligament tears, tendon injuries, muscle strains, and recovery planning."
+      "Focused care for ligament tears, tendon injuries, overuse conditions, and safe return-to-activity plans."
   },
   {
-    title: "Back Pain & Spine Care",
-    featured: false,
+    title: "Pediatric Orthopaedics",
+    featured: true,
     description:
-      "Structured assessment for back pain, neck pain, posture issues, and spine-related conditions."
+      "Orthopaedic evaluation and treatment guidance for bone, joint, and deformity concerns in children."
   },
   {
-    title: "Arthritis Management",
+    title: "Fractures & Trauma Care",
+    featured: true,
+    description:
+      "Rapid assessment and structured treatment for fractures, trauma, and accident-related orthopaedic injuries."
+  },
+  {
+    title: "Spine & Back Treatment",
     featured: false,
     description:
-      "Long-term arthritis care focused on pain relief, mobility, and day-to-day function."
+      "Clear evaluation and non-surgical or surgical guidance for back pain, neck pain, and spine-related discomfort."
+  },
+  {
+    title: "Robotic Joint Replacement",
+    featured: false,
+    description:
+      "Advanced replacement planning designed for better precision, confidence, and recovery support."
+  },
+  {
+    title: "Knee & Hip Replacement",
+    featured: false,
+    description:
+      "Treatment planning and perioperative support for patients with advanced joint damage and mobility limitation."
   }
 ];
 
 export const differentiators = [
-  "AIIMS-trained",
-  "12+ years experience",
-  "Q1 Hospitals",
-  "Faster recovery focus",
-  "Clear treatment plans"
+  "AIIMS-trained orthopaedic specialist",
+  "12+ years of clinical experience",
+  "Available at Q1 Hospitals",
+  "Faster recovery-focused treatment approach",
+  "Clear treatment plans and patient guidance"
 ];
 
-export const benefits = [
-  {
-    title: "Joint Replacement",
-    description:
-      "Advanced care pathways for patients needing surgical and post-surgical joint support."
-  },
-  {
-    title: "Arthroscopy",
-    description:
-      "Focused care for minimally invasive orthopaedic treatment and sports-related concerns."
-  },
-  {
-    title: "Trauma Care",
-    description: "Prompt fracture and trauma management with attention to safe recovery and mobility."
-  },
-  {
-    title: "Patient-first approach",
-    description:
-      "Clear communication, practical treatment planning, and comfort-focused consultations."
-  }
+export const profilePoints = [
+  "Special focus on sports injury treatment and pediatric orthopaedics",
+  "Focused treatment planning for pain relief, mobility, and long-term recovery",
+  "Trusted hospital-based consultation at Q1 Hospitals, Visakhapatnam, serving patients across Visakhapatnam and Vizag"
 ];
 
 export const testimonials = [
@@ -115,10 +100,84 @@ export const testimonials = [
   }
 ];
 
+export const galleryImages = [
+  {
+    src: "/images/doctor/dr-sandeep-fracture-treatment.webp",
+    alt: "Orthopaedic doctor in Visakhapatnam consulting patient for fracture treatment",
+    title: "Clinical Consultation"
+  },
+  {
+    src: "/images/doctor/dr-sandeep-spine-care.webp",
+    alt: "Orthopaedic doctor in Vizag reviewing spine and back imaging",
+    title: "Imaging Review"
+  },
+  {
+    src: "/images/doctor/dr-sandeep-joint-replacement.webp",
+    alt: "Orthopaedic surgeon performing advanced joint replacement procedure",
+    title: "Operating Room Care"
+  },
+  {
+    src: "/images/doctor/dr-sandeep-consultation-1.webp",
+    alt: "Orthopaedic doctor in Visakhapatnam consulting patient in clinic",
+    title: "Consultation Desk"
+  }
+];
+
+export const socialLinks = [
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/drsandeep_kanugula_ortho/?hl=en",
+    kind: "instagram"
+  },
+  {
+    label: "Google Reviews",
+    href: "https://share.google/mJjf20M8xhk0lfZn2",
+    kind: "reviews"
+  },
+  {
+    label: "Read More About Doctor",
+    href: "#profile",
+    kind: "profile"
+  }
+];
+
+export const faqs = [
+  {
+    question: "When should I see an orthopaedic doctor?",
+    answer:
+      "You should see an orthopaedic doctor if you have persistent joint pain, fracture symptoms, back pain, sports injuries, or difficulty with movement."
+  },
+  {
+    question: "Do you treat fractures?",
+    answer:
+      "Yes. Fracture and trauma care is one of the core orthopaedic services offered for patients in Visakhapatnam and Vizag."
+  },
+  {
+    question: "Do you treat spine problems?",
+    answer:
+      "Yes. Spine and back treatment is available for neck pain, back pain, posture-related issues, and other orthopaedic spine concerns."
+  },
+  {
+    question: "Do you treat sports injuries?",
+    answer:
+      "Yes. Sports injury treatment is a key focus area, including ligament, tendon, and overuse injury care."
+  },
+  {
+    question: "Do I need surgery for knee pain?",
+    answer:
+      "Not always. Many patients improve with accurate diagnosis and structured treatment, while surgery is recommended only when clinically necessary."
+  },
+  {
+    question: "How do I book an appointment?",
+    answer:
+      "You can call, WhatsApp, or submit the appointment form on the website to book a consultation quickly."
+  }
+];
+
 export const navigation = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Why Choose Us", href: "#why-us" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Profile", href: "#profile" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" }
 ];
