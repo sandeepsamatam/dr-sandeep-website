@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.drsandeepkanugula.com
+
+# Sitemaps
+Sitemap: https://www.drsandeepkanugula.com/sitemap.xml
