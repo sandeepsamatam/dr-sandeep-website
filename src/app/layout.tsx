@@ -19,21 +19,20 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com"),
   title: "Orthopaedic Doctor in Visakhapatnam | Dr. Sandeep Kanugula",
   description:
-    "AIIMS-trained orthopaedic specialist in Visakhapatnam offering fracture care, spine treatment, joint replacement, and sports injury care.",
+    "AIIMS-trained orthopaedic surgeon in Visakhapatnam with advanced training from NIMS Hyderabad and Ganga Hospital, Coimbatore, offering arthroscopy, sports injury care, robotic joint replacement, and paediatric orthopaedics.",
   keywords: [
-    "Orthopaedic doctor in Visakhapatnam",
-    "Orthopaedic doctor in Vizag",
-    "Orthopaedic surgeon",
-    "Joint pain treatment",
-    "Fracture treatment",
-    "Sports injury treatment",
-    "Spine treatment in Visakhapatnam",
-    "Joint replacement in Vizag"
+    "orthopaedic doctor in Visakhapatnam",
+    "arthroscopy surgeon in Vizag",
+    "sports injury specialist in Vizag",
+    "robotic joint replacement in Visakhapatnam",
+    "paediatric orthopaedic doctor in Vizag",
+    "AIIMS-trained orthopaedic surgeon",
+    "Ganga Hospital fellowship orthopaedic doctor"
   ],
   openGraph: {
     title: "Orthopaedic Doctor in Visakhapatnam | Dr. Sandeep Kanugula",
     description:
-      "AIIMS-trained orthopaedic specialist in Visakhapatnam offering fracture care, spine treatment, joint replacement, and sports injury care.",
+      "AIIMS-trained orthopaedic surgeon in Visakhapatnam with advanced training from NIMS Hyderabad and Ganga Hospital, Coimbatore, offering arthroscopy, sports injury care, robotic joint replacement, and paediatric orthopaedics.",
     type: "website",
     locale: "en_IN",
     siteName: doctor.name

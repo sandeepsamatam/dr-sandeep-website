@@ -2,75 +2,120 @@ export const doctor = {
   name: "Dr. Sandeep Kanugula",
   specialty: "Orthopaedic Surgeon",
   city: "Visakhapatnam",
+  regionAlias: "Vizag",
   location: "Q1 Hospitals, Visakhapatnam",
   phoneDisplay: "+91 97031 43231",
   phoneLink: "tel:+919703143231",
   whatsappLink: "https://wa.me/919703143231?text=Hello%20Doctor",
   email: "sandeepkanugula@gmail.com",
   experience: "12+ Years Experience",
-  residency: "AIIMS, New Delhi (Senior Residency)",
-  qualifications: ["MS Orthopaedics (NIMS)", "DNB Orthopaedics, MNAMS"],
   heroImage: "/images/doctor/dr-sandeep-consultation-1.webp",
   profileImage: "/images/doctor/dr-sandeep-kanugula-orthopaedic-doctor.webp"
 };
 
+export const topTrustBadge = "AIIMS-Trained Orthopaedic Specialist";
+
 export const heroHighlights = [
-  "12+ Years Experience",
-  "AIIMS, New Delhi (Senior Residency)",
+  "Senior Residency - AIIMS, New Delhi",
+  "MS Orthopaedics - NIMS, Hyderabad",
+  "Fellowship - Ganga Hospital, Coimbatore",
   "Q1 Hospitals, Visakhapatnam"
+];
+
+export const aboutPoints = [
+  "AIIMS-trained orthopaedic care supported by advanced academic training from NIMS Hyderabad",
+  "Fellowship exposure from Ganga Hospital, Coimbatore with focused experience in arthroscopy and advanced joint care",
+  "Patient-first recovery plans built around mobility, comfort, and a safer return to daily activity"
+];
+
+export const credentials = [
+  "MBBS",
+  "MS Orthopaedics - NIMS Hyderabad",
+  "MRCS (UK)",
+  "Senior Residency - AIIMS Delhi",
+  "Fellowship - Ganga Hospital, Coimbatore"
+];
+
+export const specializations = [
+  "Arthroscopy (Key Hole) & Sports Injuries",
+  "Robotic Joint Replacement",
+  "Paediatric Orthopaedics",
+  "Hand Surgery",
+  "Foot and Ankle Surgery",
+  "Pelvi-Acetabular Surgery",
+  "Complex Trauma & Fractures"
 ];
 
 export const services = [
   {
-    title: "Sports Injury Treatment",
+    title: "Arthroscopy (Key Hole) & Sports Injuries",
     featured: true,
     description:
-      "Focused care for ligament tears, tendon injuries, overuse conditions, and safe return-to-activity plans."
+      "Focused care for ligament tears, sports trauma, joint instability, and keyhole procedures with recovery-led planning."
   },
   {
-    title: "Pediatric Orthopaedics",
+    title: "Robotic Joint Replacement",
     featured: true,
     description:
-      "Orthopaedic evaluation and treatment guidance for bone, joint, and deformity concerns in children."
+      "Advanced replacement planning for damaged joints with precision-focused care, comfort, and structured rehabilitation guidance."
+  },
+  {
+    title: "Paediatric Orthopaedics",
+    featured: true,
+    description:
+      "Child-friendly orthopaedic evaluation and treatment for bone, joint, and growth-related concerns with clear family guidance."
   },
   {
     title: "Fractures & Trauma Care",
-    featured: true,
+    featured: false,
     description:
-      "Rapid assessment and structured treatment for fractures, trauma, and accident-related orthopaedic injuries."
+      "Prompt fracture care and trauma assessment with treatment planning designed to support healing and functional recovery."
   },
   {
     title: "Spine & Back Treatment",
     featured: false,
     description:
-      "Clear evaluation and non-surgical or surgical guidance for back pain, neck pain, and spine-related discomfort."
+      "Careful assessment for back pain, neck pain, posture concerns, and spine-related orthopaedic symptoms."
   },
   {
-    title: "Robotic Joint Replacement",
+    title: "Foot & Ankle Surgery",
     featured: false,
     description:
-      "Advanced replacement planning designed for better precision, confidence, and recovery support."
+      "Treatment for foot and ankle pain, instability, trauma, and mobility concerns with practical recovery advice."
   },
   {
-    title: "Knee & Hip Replacement",
+    title: "Hand Surgery",
     featured: false,
     description:
-      "Treatment planning and perioperative support for patients with advanced joint damage and mobility limitation."
+      "Evaluation and treatment for hand injuries, pain, stiffness, and movement-related functional concerns."
+  },
+  {
+    title: "Pelvi-Acetabular Surgery",
+    featured: false,
+    description:
+      "Specialized orthopaedic planning for complex pelvic and acetabular injury patterns."
+  },
+  {
+    title: "Complex Trauma",
+    featured: false,
+    description:
+      "Advanced trauma evaluation and treatment support for complicated fractures and accident-related injuries."
   }
 ];
 
 export const differentiators = [
   "AIIMS-trained orthopaedic specialist",
-  "12+ years of clinical experience",
-  "Available at Q1 Hospitals",
-  "Faster recovery-focused treatment approach",
-  "Clear treatment plans and patient guidance"
+  "Ganga Hospital fellowship exposure",
+  "Arthroscopy and sports injury expertise",
+  "Robotic joint replacement focus",
+  "Paediatric orthopaedic care",
+  "Recovery-focused treatment planning"
 ];
 
 export const profilePoints = [
-  "Special focus on sports injury treatment and pediatric orthopaedics",
-  "Focused treatment planning for pain relief, mobility, and long-term recovery",
-  "Trusted hospital-based consultation at Q1 Hospitals, Visakhapatnam, serving patients across Visakhapatnam and Vizag"
+  "Serving patients across Visakhapatnam and Vizag with focused orthopaedic care rooted in AIIMS training and advanced fellowship exposure",
+  "Special interest in arthroscopy, sports injuries, robotic joint replacement, and paediatric orthopaedics",
+  "Recovery-focused treatment plans designed to restore movement, reduce downtime, and improve confidence"
 ];
 
 export const testimonials = [
@@ -103,23 +148,18 @@ export const testimonials = [
 export const galleryImages = [
   {
     src: "/images/doctor/dr-sandeep-fracture-treatment.webp",
-    alt: "Orthopaedic doctor in Visakhapatnam consulting patient for fracture treatment",
-    title: "Clinical Consultation"
+    alt: "Sports injury specialist in Vizag consulting a patient during orthopaedic review",
+    title: "Sports Injury Consultation"
   },
   {
     src: "/images/doctor/dr-sandeep-spine-care.webp",
-    alt: "Orthopaedic doctor in Vizag reviewing spine and back imaging",
-    title: "Imaging Review"
+    alt: "Arthroscopy-focused orthopaedic doctor in Visakhapatnam reviewing a patient consultation",
+    title: "Arthroscopy Consultation"
   },
   {
     src: "/images/doctor/dr-sandeep-joint-replacement.webp",
-    alt: "Orthopaedic surgeon performing advanced joint replacement procedure",
-    title: "Operating Room Care"
-  },
-  {
-    src: "/images/doctor/dr-sandeep-consultation-1.webp",
-    alt: "Orthopaedic doctor in Visakhapatnam consulting patient in clinic",
-    title: "Consultation Desk"
+    alt: "Robotic joint replacement planning by an orthopaedic surgeon in Visakhapatnam",
+    title: "Joint Replacement Care"
   }
 ];
 
@@ -143,32 +183,32 @@ export const socialLinks = [
 
 export const faqs = [
   {
-    question: "When should I see an orthopaedic doctor?",
+    question: "When should I consider arthroscopy for joint pain or injury?",
     answer:
-      "You should see an orthopaedic doctor if you have persistent joint pain, fracture symptoms, back pain, sports injuries, or difficulty with movement."
-  },
-  {
-    question: "Do you treat fractures?",
-    answer:
-      "Yes. Fracture and trauma care is one of the core orthopaedic services offered for patients in Visakhapatnam and Vizag."
-  },
-  {
-    question: "Do you treat spine problems?",
-    answer:
-      "Yes. Spine and back treatment is available for neck pain, back pain, posture-related issues, and other orthopaedic spine concerns."
+      "Arthroscopy may be advised when joint pain, locking, swelling, or sports injuries do not improve with rest, medication, or guided rehabilitation."
   },
   {
     question: "Do you treat sports injuries?",
     answer:
-      "Yes. Sports injury treatment is a key focus area, including ligament, tendon, and overuse injury care."
+      "Yes. Sports injury care includes ligament injuries, tendon problems, joint instability, and return-to-activity treatment planning."
   },
   {
-    question: "Do I need surgery for knee pain?",
+    question: "When is robotic joint replacement recommended?",
     answer:
-      "Not always. Many patients improve with accurate diagnosis and structured treatment, while surgery is recommended only when clinically necessary."
+      "It is considered when joint damage causes ongoing pain, stiffness, or reduced mobility and non-surgical options no longer provide lasting relief."
   },
   {
-    question: "How do I book an appointment?",
+    question: "Do you see children for orthopaedic problems?",
+    answer:
+      "Yes. Paediatric orthopaedic care is available for bone, joint, gait, and growth-related concerns in children."
+  },
+  {
+    question: "Do you treat fractures and spine problems as well?",
+    answer:
+      "Yes. Fractures, trauma care, back pain, and spine-related orthopaedic symptoms remain part of the broader treatment scope."
+  },
+  {
+    question: "How to book appointment?",
     answer:
       "You can call, WhatsApp, or submit the appointment form on the website to book a consultation quickly."
   }
