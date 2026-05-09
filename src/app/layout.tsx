@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
@@ -51,6 +52,22 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${manrope.variable} ${cormorant.variable} antialiased`}>
         {children}
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-T67LB945ZK"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-T67LB945ZK');
+          `}
+        </Script>
+
       </body>
     </html>
   );
