@@ -50,18 +50,21 @@ export const services = [
   {
     title: "Arthroscopy (Key Hole) & Sports Injuries",
     featured: true,
+    href: "/sports-injury-specialist-visakhapatnam",
     description:
       "Focused care for ligament tears, sports trauma, joint instability, and keyhole procedures with recovery-led planning."
   },
   {
     title: "Robotic Joint Replacement",
     featured: true,
+    href: "/robotic-joint-replacement-visakhapatnam",
     description:
       "Advanced replacement planning for damaged joints with precision-focused care, comfort, and structured rehabilitation guidance."
   },
   {
     title: "Paediatric Orthopaedics",
     featured: true,
+    href: "/paediatric-orthopaedic-doctor-visakhapatnam",
     description:
       "Child-friendly orthopaedic evaluation and treatment for bone, joint, and growth-related concerns with clear family guidance."
   },
@@ -176,7 +179,7 @@ export const socialLinks = [
   },
   {
     label: "Read More About Doctor",
-    href: "#profile",
+    href: "/about-dr-sandeep-kanugula",
     kind: "profile"
   }
 ];
