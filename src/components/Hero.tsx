@@ -42,13 +42,13 @@ export function Hero({
   return (
     <section id={id} className="relative overflow-hidden">
       <div className="absolute inset-0 medical-grid opacity-[0.05]" />
-      <div className="absolute left-0 top-8 h-52 w-52 rounded-full bg-brand-100/60 blur-3xl sm:h-72 sm:w-72" />
-      <div className="absolute right-0 top-14 h-64 w-64 rounded-full bg-sky-200/30 blur-3xl sm:h-96 sm:w-96" />
+      <div className="absolute left-0 top-8 h-52 w-52 rounded-full bg-brand-200/40 blur-[100px] sm:h-80 sm:w-80" />
+      <div className="absolute right-0 top-14 h-64 w-64 rounded-full bg-accent-500/15 blur-[120px] sm:h-96 sm:w-96" />
 
       <div className={`mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 ${compact ? "py-6 sm:py-8 lg:py-10" : "py-6 sm:py-8 lg:py-9"}`}>
         <Reveal className="relative grid items-center gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
           <div className="order-2 text-center lg:order-1 lg:text-left">
-            <div className="inline-flex rounded-full border border-brand-100 bg-white/90 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-brand-700 shadow-soft sm:text-xs">
+            <div className="inline-flex rounded-full border border-accent-500/30 bg-gradient-to-r from-brand-50 to-white px-5 py-2 text-[11px] font-bold uppercase tracking-[0.25em] text-brand-800 shadow-sm sm:text-xs">
               {badge}
             </div>
 
@@ -69,7 +69,7 @@ export function Hero({
                 href={primaryAction.href}
                 target={primaryAction.target}
                 rel={primaryAction.rel}
-                className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-brand-700 px-6 py-3.5 text-sm font-semibold text-white shadow-card transition hover:bg-brand-800 sm:flex-1 lg:w-auto lg:flex-none"
+                className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-gradient-to-r from-brand-900 to-brand-700 px-6 py-3.5 text-sm font-bold text-white shadow-premium transition hover:from-brand-800 hover:to-brand-600 sm:flex-1 lg:w-auto lg:flex-none"
               >
                 {primaryAction.label}
               </SmartLink>
@@ -79,7 +79,7 @@ export function Hero({
                   href={secondaryAction.href}
                   target={secondaryAction.target}
                   rel={secondaryAction.rel}
-                  className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-brand-200 bg-white px-6 py-3.5 text-sm font-semibold text-brand-800 transition hover:border-brand-300 hover:bg-brand-50 sm:flex-1 lg:w-auto lg:flex-none"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-brand-200 bg-white/80 px-6 py-3.5 text-sm font-bold text-brand-800 backdrop-blur-md transition hover:border-brand-300 hover:bg-brand-50 sm:flex-1 lg:w-auto lg:flex-none"
                 >
                   {secondaryAction.label}
                 </SmartLink>

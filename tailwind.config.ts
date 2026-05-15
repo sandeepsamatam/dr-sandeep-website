@@ -6,16 +6,20 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50: "#f0f7ff",
-          100: "#dceeff",
-          200: "#b9deff",
-          300: "#83c5ff",
-          400: "#45a7ff",
-          500: "#1788ff",
-          600: "#0068ea",
-          700: "#0052bc",
-          800: "#074796",
-          900: "#0c3d7c"
+          50: "#F2F6F9",
+          100: "#E0EBF1",
+          200: "#C2D7E4",
+          300: "#94BCD2",
+          400: "#609BBA",
+          500: "#19A7CE", // Teal Accent
+          600: "#1486A5",
+          700: "#23516A",
+          800: "#173C56",
+          900: "#0B2447"  // Deep Navy
+        },
+        accent: {
+          500: "#D4AF37", // Premium Gold/Bronze
+          600: "#AA8C2C"
         },
         ink: "#0f172a",
         muted: "#5b6475",
@@ -27,12 +31,13 @@ const config: Config = {
         display: ["var(--font-display)"]
       },
       boxShadow: {
-        soft: "0 20px 60px -28px rgba(15, 23, 42, 0.20)",
-        card: "0 16px 40px -24px rgba(0, 72, 144, 0.22)"
+        soft: "0 20px 60px -28px rgba(15, 23, 42, 0.15)",
+        card: "0 16px 40px -24px rgba(11, 36, 71, 0.15)",
+        premium: "0 20px 40px -15px rgba(11, 36, 71, 0.15), 0 0 15px rgba(25, 167, 206, 0.1)"
       },
       backgroundImage: {
         "medical-grid":
-          "linear-gradient(rgba(255,255,255,0.74) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.74) 1px, transparent 1px)"
+          "linear-gradient(rgba(11, 36, 71, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(11, 36, 71, 0.04) 1px, transparent 1px)"
       },
       keyframes: {
         float: {

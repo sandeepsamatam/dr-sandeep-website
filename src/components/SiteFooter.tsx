@@ -48,10 +48,11 @@ export function SiteFooter() {
               Orthopaedic Specialist in Visakhapatnam
             </p>
             <div className="mt-5 space-y-2 text-sm leading-7 text-muted">
-              <p>Q1 Hospitals, Visakhapatnam</p>
+              <p><strong>Primary Location:</strong> Q1 Hospitals, Visakhapatnam</p>
+              <p><strong>Areas Served:</strong> MVP Colony, Gajuwaka, Madhurawada, Seethammadhara, Vizag</p>
               <p>{doctor.phoneDisplay}</p>
               <p>{doctor.email}</p>
-              <p>Trusted orthopaedic care in Vizag</p>
+              <p>Trusted premium orthopaedic care in Visakhapatnam</p>
             </div>
             <div className="mt-5 flex flex-wrap gap-3">
               {socialLinks.map((link) => (

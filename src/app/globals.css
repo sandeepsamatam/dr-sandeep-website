@@ -13,9 +13,9 @@ html {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(23, 136, 255, 0.14), transparent 26%),
-    radial-gradient(circle at 85% 10%, rgba(7, 71, 150, 0.12), transparent 22%),
-    linear-gradient(180deg, #f4faff 0%, #ffffff 38%, #f6fbff 100%);
+    radial-gradient(circle at top left, rgba(25, 167, 206, 0.08), transparent 26%),
+    radial-gradient(circle at 85% 10%, rgba(11, 36, 71, 0.06), transparent 22%),
+    linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 38%, #F2F6F9 100%);
   color: #0f172a;
   font-family: var(--font-sans), sans-serif;
 }

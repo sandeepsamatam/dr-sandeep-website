@@ -25,6 +25,7 @@ import {
   testimonials,
   topTrustBadge
 } from "@/lib/site";
+import { routePaths } from "@/lib/seo-pages";
 
 const physicianSchema = {
   "@context": "https://schema.org",
@@ -107,7 +108,7 @@ export default function Home() {
             highlights={heroHighlights}
             imageSrc={doctor.heroImage}
             imageAlt="AIIMS-trained orthopaedic doctor in Visakhapatnam during consultation"
-            primaryAction={{ label: "Book Appointment", href: "#contact" }}
+            primaryAction={{ label: "Book Appointment", href: routePaths.book }}
             secondaryAction={{
               label: "WhatsApp Now",
               href: doctor.whatsappLink,
@@ -174,7 +175,7 @@ export default function Home() {
             title="Trusted by patients across Visakhapatnam"
             description="A grounded tone and clean presentation reinforce trust without adding noise."
             testimonials={testimonials}
-            ctaHref="#contact"
+            ctaHref={routePaths.book}
             ctaLabel="Book your consultation today"
           />
 

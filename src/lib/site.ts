@@ -29,9 +29,7 @@ export const aboutPoints = [
 ];
 
 export const credentials = [
-  "MBBS",
   "MS Orthopaedics - NIMS Hyderabad",
-  "MRCS (UK)",
   "Senior Residency - AIIMS Delhi",
   "Fellowship - Ganga Hospital, Coimbatore"
 ];
@@ -218,9 +216,9 @@ export const faqs = [
 ];
 
 export const navigation = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Profile", href: "#profile" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Contact", href: "#contact" }
+  { label: "Home", href: "/" },
+  { label: "About Profile", href: "/about-dr-sandeep-kanugula" },
+  { label: "Services", href: "/orthopaedic-services-visakhapatnam" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Contact", href: "/book-appointment" }
 ];

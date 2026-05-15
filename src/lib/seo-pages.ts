@@ -10,7 +10,8 @@ export const routePaths = {
   clubfoot: "/clubfoot-treatment-visakhapatnam",
   acl: "/acl-injury-treatment-visakhapatnam",
   kneePain: "/knee-pain-specialist-visakhapatnam",
-  hipReplacement: "/hip-replacement-surgeon-visakhapatnam"
+  hipReplacement: "/hip-replacement-surgeon-visakhapatnam",
+  gallery: "/gallery"
 } as const;
 
 export type LinkItem = {

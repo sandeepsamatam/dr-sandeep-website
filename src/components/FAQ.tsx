@@ -20,10 +20,10 @@ export function FAQ({ eyebrow, title, description, faqs, id }: FAQProps) {
           <Reveal
             key={faq.question}
             delay={index * 50}
-            className="rounded-[2rem] border border-white bg-white p-6 shadow-soft"
+            className="rounded-[1.5rem] border border-line bg-white p-6 shadow-sm transition hover:shadow-md"
           >
-            <h3 className="text-lg font-semibold text-ink">{faq.question}</h3>
-            <p className="mt-3 text-sm leading-7 text-muted">{faq.answer}</p>
+            <h3 className="text-lg font-bold text-brand-900">{faq.question}</h3>
+            <p className="mt-3 text-base leading-7 text-muted">{faq.answer}</p>
           </Reveal>
         ))}
       </div>

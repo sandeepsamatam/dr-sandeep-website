@@ -40,6 +40,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/"
+  },
+  icons: {
+    icon: "/images/doctor/dr-sandeep-kanugula-orthopaedic-doctor.webp"
   }
 };
 
